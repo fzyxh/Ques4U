@@ -1,0 +1,20 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "index.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzyxh/Ques4U.git"
+  },
+  "author": "phinney",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzyxh/Ques4U/issues"
+  },
+  "homepage": "https://github.com/fzyxh/Ques4U#readme"
+}
