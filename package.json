@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/fzyxh/Ques4U#readme",
   "dependencies": {
+    "express": "^4.17.3",
     "mysql": "^2.18.1"
   }
 }
