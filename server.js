@@ -11,5 +11,14 @@ http.createServer(function (request, response) {
     response.end('Hello World\n');
 }).listen(8888);
 
+//test------------------------------------------------
+
+var register_group = require('./src/services/register_group');
+var null_json = '{"1" : 112}';
+rg_group = new register_group(000001,'GayHub',000001,null_json,null_json);
+console.log(rg_group.register());
+
+//test------------------------------------------------
+
 // 终端打印如下信息
 console.log('Server running at http://127.0.0.1:8888/');
