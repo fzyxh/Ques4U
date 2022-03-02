@@ -29,4 +29,4 @@ var config = {
     }
 };
 
-module.exports = config, mysql_connection;
+module.exports = config;
