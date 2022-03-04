@@ -1,4 +1,4 @@
-var mysql = require('mysql');
+// var mysql = require('mysql');
 var config = require('../config'); //导入config文件
 var query=require("../utils/db.js");
 
