@@ -1,6 +1,6 @@
-var path = require('path');
-var appRoot = path.resolve(__dirname);
-var config = {
+const path = require('path');
+const appRoot = path.resolve(__dirname);
+const config = {
 	web:{
 		name:"Ques4U",
 		appRoot:appRoot
