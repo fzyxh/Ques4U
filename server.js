@@ -13,10 +13,14 @@ http.createServer(function (request, response) {
 
 //test------------------------------------------------
 
-var register_group = require('./src/services/register_group');
-var null_json = '{"1" : 112}';
-rg_group = new register_group(000001,'GayHub',000001,null_json,null_json);
-console.log(rg_group.register());
+// var register_group = require('./src/services/register_group');
+// var null_json = '{"1" : 112}';
+// rg_group = new register_group(000001,'GayHub',000001,null_json,null_json);
+// console.log(rg_group.register());
+
+var delete_group = require('./src/services/delete_group');
+del_group = new delete_group(000001);
+console.log(del_group.delete());
 
 //test------------------------------------------------
 
