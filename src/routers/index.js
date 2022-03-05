@@ -22,7 +22,7 @@ router.get(`/data`, (req, res, next) => {
   })
 })
 
-router.post('/auth', function(req, res, next) {
+router.post(`/auth`, function(req, res, next) {
     UserModel.find(req.body.useremail,function(err, user){
         if (err) throw err;
         if (!user) {
